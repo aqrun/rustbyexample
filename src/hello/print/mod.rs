@@ -1,3 +1,4 @@
+
 // 格式化输出
 fn run(){
     // 通常情况下， `{}` 会被任意变量替换
@@ -18,7 +19,7 @@ fn run(){
         verb="jumps over"
     );
 
-    //特殊的格式实现可以在后台加上 `:` 符号
+    //特殊的格式实现可以在后面加上 `:` 符号
     println!("{} of {:b} people know binary, the other half don't,", 1, 2);
 
     // 你可以按指定宽度来右对齐文本。
@@ -43,6 +44,10 @@ fn run(){
     // 下面语句无法运行
     //println!("This struct `{}` won't print...", Structure(3));
     // 改正 ^ 注释掉此行
+
+    //练习: 打印 Pi is roughly 3.142。 let pi = 3.1415926 (note: 小数位参考std::fmt)
+    let pi = 3.1415926;
+    println!("Pi is roughly {:.*}", 2, pi);
 }
 
 

@@ -1,3 +1,8 @@
 pub mod hello;
 
-pub use hello::mod_init as mod_init;
+pub fn module_init(module_name: &str){
+    match module_name {
+        "hello" => hello::mod_init(),
+        _ => println!("Module ({}) not exists!", module_name),
+    }
+}
