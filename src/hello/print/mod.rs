@@ -1,3 +1,15 @@
+mod print_debug;
+
+
+pub fn init(){
+    println!("===============print::init=============");
+    run();
+    println!("===============print_debug::run=============");
+    print_debug::run();
+}
+
+
+
 
 // 格式化输出
 fn run(){
@@ -51,7 +63,3 @@ fn run(){
 }
 
 
-
-pub fn init(){
-    run();
-}
