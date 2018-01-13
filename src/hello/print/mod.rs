@@ -1,4 +1,5 @@
 mod print_debug;
+mod print_display;
 
 
 pub fn init(){
@@ -6,6 +7,8 @@ pub fn init(){
     run();
     println!("===============print_debug::run=============");
     print_debug::run();
+    println!("===============print_display::run=============");
+    print_display::run();
 }
 
 
