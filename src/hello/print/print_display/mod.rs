@@ -1,4 +1,5 @@
 //1.2.2 显示
+mod testcase_list;
 
 use std::fmt;
 
@@ -35,7 +36,14 @@ impl fmt::Display for Complex {
     }
 }
 
-pub fn run() {
+pub fn init(){
+    run();
+    println!("===============testcase_list::run=============");
+    testcase_list::run();
+    
+}
+
+fn run() {
     let minmax = MinMax(0,14);
 
     println!("Compare structures:");

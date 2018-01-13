@@ -8,7 +8,7 @@ pub fn init(){
     println!("===============print_debug::run=============");
     print_debug::run();
     println!("===============print_display::run=============");
-    print_display::run();
+    print_display::init();
 }
 
 
