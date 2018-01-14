@@ -1,8 +1,12 @@
 // 2. 原生类型
 
-pub fn mod_init() {
+mod literals;
 
+pub fn mod_init() {
+    println!("===============primitives::run============");
     run();
+    println!("===============literals::run============");
+    literals::run();
 }
 
 fn run() {
