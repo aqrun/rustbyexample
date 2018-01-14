@@ -1,12 +1,15 @@
 // 2. 原生类型
 
 mod literals;
+mod tuples;
 
 pub fn mod_init() {
     println!("===============primitives::run============");
     run();
     println!("===============literals::run============");
     literals::run();
+    println!("===============tuples::run============");
+    tuples::run();
 }
 
 fn run() {
