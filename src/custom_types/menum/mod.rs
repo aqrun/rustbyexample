@@ -1,6 +1,14 @@
 
 #![allow(dead_code)]
 
+mod enum_use;
+
+pub fn init(){
+    run();
+    println!("===========enum_use===========");
+    enum_use::run();
+}
+
 enum Person {
     Engineer,
     Scientist,
@@ -21,7 +29,7 @@ fn inspect(p: Person) {
     }
 }
 
-pub fn run(){
+fn run(){
     let person = Person::Height(18);
     let amira = Person::Weight(10);
     let dave = Person::Info{ name: "Dave".to_owned(), height:72 };

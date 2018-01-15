@@ -12,5 +12,5 @@ mod menum;
 pub fn run() {
     structs::run();
     println!("==========menum==========");
-    menum::run();
+    menum::init();
 }
