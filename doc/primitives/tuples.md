@@ -18,15 +18,18 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
 井[derive(Debug)]
 struct Matrix(f32, f32, f32, f32);
 
-fn transpose(matrix: Matrix) -> Matrix {
-    let Matrix(a, b, c, d) = self;
-    write!(f, "( {} {} ) \n( {} {} )", a, b, c, d)
-}
+// e.g.
 impl fmt::Display for Matrix {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        let Matrix(a, b, c, d) = self;
-        write!(f, "( {} {} ) \n( {} {} )", a, b, c, d)
+        write!(f, "( {}, {} ) \n( {}, {} )",
+            self.0, self.1, self.2, self.3)
     }
+}
+
+//e.g.
+fn transpose(matrix: Matrix) -> Matrix {
+    let Matrix(a, b, c, d) = matrix;
+    Matrix(a, c, b, d)
 }
 
 

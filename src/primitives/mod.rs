@@ -2,6 +2,7 @@
 
 mod literals;
 mod tuples;
+mod array;
 
 pub fn mod_init() {
     println!("===============primitives::run============");
@@ -10,6 +11,8 @@ pub fn mod_init() {
     literals::run();
     println!("===============tuples::run============");
     tuples::run();
+    println!("===============array::run============");
+    array::run();
 }
 
 fn run() {
