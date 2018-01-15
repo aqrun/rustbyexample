@@ -7,7 +7,10 @@
 //! 而常量创建可以通过 `const` 和 `static` 关键字来创建。
 
 mod structs;
+mod menum;
 
 pub fn run() {
     structs::run();
+    println!("==========menum==========");
+    menum::run();
 }
