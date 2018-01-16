@@ -3,6 +3,7 @@
 
 mod enum_use;
 mod c_like;
+mod testcase_linked_list;
 
 pub fn init(){
     run();
@@ -10,6 +11,8 @@ pub fn init(){
     enum_use::run();
     println!("===========enum_use===========");
     c_like::run();
+    println!("===========enum_use===========");
+    testcase_linked_list::run();
 }
 
 enum Person {

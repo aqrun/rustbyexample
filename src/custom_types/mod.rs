@@ -8,9 +8,12 @@
 
 mod structs;
 mod menum;
+mod constants;
 
 pub fn run() {
     structs::run();
     println!("==========menum==========");
     menum::init();
+    println!("========constants==========");
+    constants::run();
 }
