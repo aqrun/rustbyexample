@@ -2,11 +2,14 @@
 #![allow(dead_code)]
 
 mod enum_use;
+mod c_like;
 
 pub fn init(){
     run();
     println!("===========enum_use===========");
     enum_use::run();
+    println!("===========enum_use===========");
+    c_like::run();
 }
 
 enum Person {

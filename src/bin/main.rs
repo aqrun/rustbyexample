@@ -10,5 +10,5 @@ fn main() {
     }else{
         module_init(args[1].as_ref());
     }
-    
+
 }
