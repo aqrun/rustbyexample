@@ -1,0 +1,24 @@
+Press ? for neotree help
+<ithub.com/aqrun/rustbyexample/
+ .git/
+ doc/
+   custom_types/
+   primitives/
+   Project.ede
+ src/
+   bin/
+   custom_types/
+   guess_number/
+      *NeoTree*
+     .# *NeoTree*
+     guess_number_mod.rs
+     mod.rs
+   hello/
+   primitives/
+   variable_bindings/
+   lib.rs
+ target/
+ .gitignore
+ Cargo.lock
+ Cargo.toml
+ rustbyexample.iml

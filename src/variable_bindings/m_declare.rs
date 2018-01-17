@@ -11,7 +11,7 @@ pub fn run(){
 
     let another_binding;
 
-    println!("another binding: {}", another_binding);
+ //   println!("another binding: {}", another_binding);
 
     another_binding = 1;
     println!("another binding: {}", another_binding);
