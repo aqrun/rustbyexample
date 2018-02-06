@@ -1,3 +1,5 @@
+extern crate rand;
+
 pub mod hello;
 mod primitives;
 mod custom_types;
