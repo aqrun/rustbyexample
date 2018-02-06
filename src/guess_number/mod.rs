@@ -16,11 +16,11 @@ pub fn init() {
             break;
         }else{
             if num < rand {
-                msg = "               Too small!!";
+                msg = "Too small!!";
             } else if num > rand {
-                msg = "               Too big!!";
+                msg = "Too big!!";
             }
-            println!("{}  {}", msg, num);
+            println!("{:>40}  {}", msg, num);
         }
     }
 
